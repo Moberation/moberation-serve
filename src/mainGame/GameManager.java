@@ -53,8 +53,7 @@ public class GameManager {
 	{
 		this.gameName = gameName;
 	}
-	
-	
+		
 	public boolean getGameOver()
 	{
 		return this.gameOver;

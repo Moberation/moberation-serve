@@ -39,8 +39,8 @@ public class JoinGame extends HttpServlet {
 			
 		PrintWriter out = response.getWriter();
 		String menuItem = GameItem.JoinGame.toString(); //request.getParameter("menuIitem");
-		String playerName = "Charles"; //request.getParameter("PlayerName");
-		String gameName = "game123";//request.getParameter("GameName");
+		String playerName = request.getParameter("PlayerName"); //"Charles";
+		String gameName   = request.getParameter("GameName");// "game123";
 		String playerID = request.getParameter("playerID");
 		String gameID = request.getParameter("gameID");
 		String roleID = request.getParameter("roleID");
