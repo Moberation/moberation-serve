@@ -7,6 +7,15 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<div>
+		<form>
+		<ul>
+			<li>
+				<a>Start a new game</a>
+			</li>
+		</ul>
+		
+		</form>
+	</div>
 </body>
 </html>
